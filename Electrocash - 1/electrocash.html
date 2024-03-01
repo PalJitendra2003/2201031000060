@@ -1,0 +1,677 @@
+import * as React from "react";
+import { Text, StyleSheet, View, Pressable } from "react-native";
+import { Image } from "expo-image";
+import { useNavigation } from "@react-navigation/native";
+import { FontFamily, Color, FontSize, Border } from "../GlobalStyles";
+
+const Buy = () => {
+  const navigation = useNavigation();
+
+  return (
+    <View style={styles.buy}>
+      <Text style={[styles.home, styles.homeTypo]}>Home</Text>
+      <Text style={[styles.aboutUs, styles.helpTypo]}>About Us</Text>
+      <Text style={[styles.help, styles.helpTypo]}>Help</Text>
+      <View style={styles.buyChild} />
+      <Text style={[styles.searchWhatYou, styles.homeTypo]}>
+        search what you want
+      </Text>
+      <Image
+        style={[styles.buyItem, styles.buyItemPosition]}
+        contentFit="cover"
+        source={require("../assets/rectangle-1.png")}
+      />
+      <Image
+        style={[styles.screenshot20240210155037RIcon, styles.buyItemPosition]}
+        contentFit="cover"
+        source={require("../assets/screenshot-20240210-155037removebgpreview-1.png")}
+      />
+      <Pressable
+        style={styles.buyInner}
+        onPress={() => navigation.navigate("Login")}
+      />
+      <Text style={[styles.login, styles.loginTypo]}>Login</Text>
+      <Text style={[styles.electrocash, styles.loginTypo]}>Electrocash</Text>
+      <Image
+        style={styles.searchIcon}
+        contentFit="cover"
+        source={require("../assets/search.png")}
+      />
+      <View style={[styles.navigationBar, styles.navigationLayout]}>
+        <View style={[styles.navigationBarChild, styles.iconChildLayout]} />
+        <Text style={[styles.buy1, styles.buy1Typo]}>Buy</Text>
+        <Text style={[styles.sell, styles.youTypo]}>Sell</Text>
+        <Text style={[styles.repair, styles.buy1Typo]}>Repair</Text>
+        <Text style={[styles.you, styles.youPosition]}>You</Text>
+        <Text style={[styles.more, styles.moreLayout]}>More</Text>
+        <Image
+          style={[styles.sellIcon, styles.iconPosition1]}
+          contentFit="cover"
+          source={require("../assets/sell.png")}
+        />
+        <Image
+          style={[styles.toolsIcon, styles.iconPosition1]}
+          contentFit="cover"
+          source={require("../assets/tools.png")}
+        />
+        <Image
+          style={[styles.customerIcon, styles.youPosition]}
+          contentFit="cover"
+          source={require("../assets/customer.png")}
+        />
+        <Image
+          style={[styles.shoppingCartIcon, styles.switch1ItemPosition]}
+          contentFit="cover"
+          source={require("../assets/shopping-cart.png")}
+        />
+        <Image
+          style={[styles.menuSquaredIcon, styles.iconChildLayout]}
+          contentFit="cover"
+          source={require("../assets/menu-squared.png")}
+        />
+      </View>
+      <Pressable
+        style={[styles.switch1, styles.switch1Layout]}
+        onPress={() => navigation.navigate("Switch1")}
+      >
+        <View style={[styles.switch1Child, styles.switch1Layout]} />
+        <View style={[styles.switch1Item, styles.switch1ItemLayout]} />
+        <Text style={[styles.buy2, styles.buy2Layout]}>Buy</Text>
+        <Text style={[styles.sell1, styles.buy2Layout]}>Sell</Text>
+      </Pressable>
+      <View style={styles.groupParent}>
+        <Image
+          style={styles.frameChild}
+          contentFit="cover"
+          source={require("../assets/group-2.png")}
+        />
+        <Image
+          style={[styles.mobilePhoneIcon, styles.iconLayout2]}
+          contentFit="cover"
+          source={require("../assets/mobile-phone.png")}
+        />
+        <Image
+          style={[styles.laptopIcon, styles.iconLayout1]}
+          contentFit="cover"
+          source={require("../assets/laptop.png")}
+        />
+        <Text style={[styles.phone, styles.acTypo]}>Phone</Text>
+        <Text style={[styles.laptop, styles.acTypo]}>Laptop</Text>
+        <Image
+          style={[styles.workstationIcon, styles.iconLayout1]}
+          contentFit="cover"
+          source={require("../assets/workstation.png")}
+        />
+        <Image
+          style={[styles.smartWatchIcon, styles.iconLayout2]}
+          contentFit="cover"
+          source={require("../assets/smart-watch.png")}
+        />
+        <Image
+          style={styles.androidTabletIcon}
+          contentFit="cover"
+          source={require("../assets/android-tablet.png")}
+        />
+        <Image
+          style={styles.airConditionerIcon}
+          contentFit="cover"
+          source={require("../assets/air-conditioner.png")}
+        />
+        <Text style={[styles.computer, styles.acTypo]}>Computer</Text>
+        <Text style={[styles.watch, styles.acTypo]}>Watch</Text>
+        <Text style={[styles.ac, styles.acTypo]}>AC</Text>
+        <Text style={[styles.tablet, styles.acTypo]}>Tablet</Text>
+        <Text style={[styles.tv, styles.tvTypo]}>TV</Text>
+        <Text style={[styles.refrigerator, styles.acTypo]}>Refrigerator</Text>
+        <Text style={[styles.washingMachine, styles.acTypo]}>
+          Washing Machine
+        </Text>
+        <Text style={[styles.macMini, styles.macMiniTypo]}>Mac mini</Text>
+        <Text style={[styles.macbook, styles.macbookPosition]}>Macbook</Text>
+        <Text style={[styles.camera, styles.tvTypo]}>Camera</Text>
+        <Image
+          style={[styles.macbookIcon, styles.macbookPosition]}
+          contentFit="cover"
+          source={require("../assets/macbook.png")}
+        />
+        <Image
+          style={[styles.macMiniIcon, styles.iconLayout]}
+          contentFit="cover"
+          source={require("../assets/mac-mini.png")}
+        />
+        <Image
+          style={[styles.fridgeIcon, styles.iconLayout]}
+          contentFit="cover"
+          source={require("../assets/fridge.png")}
+        />
+        <Image
+          style={[styles.washingMachineIcon, styles.iconLayout]}
+          contentFit="cover"
+          source={require("../assets/washing-machine.png")}
+        />
+        <Image
+          style={[styles.tvShowIcon, styles.iconLayout]}
+          contentFit="cover"
+          source={require("../assets/tv-show.png")}
+        />
+        <Image
+          style={[styles.remoteControlIcon, styles.switch1ItemLayout]}
+          contentFit="cover"
+          source={require("../assets/remote-control.png")}
+        />
+        <Image
+          style={[styles.cameraIcon, styles.iconLayout]}
+          contentFit="cover"
+          source={require("../assets/camera.png")}
+        />
+      </View>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  homeTypo: {
+    textAlign: "left",
+    fontFamily: FontFamily.interRegular,
+    position: "absolute",
+  },
+  helpTypo: {
+    color: Color.colorGray_200,
+    textAlign: "left",
+    fontFamily: FontFamily.interRegular,
+    fontSize: FontSize.size_xs,
+    top: 98,
+    position: "absolute",
+  },
+  buyItemPosition: {
+    height: 75,
+    top: 0,
+    position: "absolute",
+  },
+  loginTypo: {
+    color: Color.labelColorDarkPrimary,
+    fontFamily: FontFamily.interBold,
+    fontWeight: "700",
+    textAlign: "left",
+    position: "absolute",
+  },
+  navigationLayout: {
+    height: 57,
+    width: 360,
+    left: 0,
+    position: "absolute",
+  },
+  iconChildLayout: {
+    borderRadius: Border.br_mini,
+    top: 0,
+  },
+  buy1Typo: {
+    color: Color.colorBlack,
+    fontSize: FontSize.size_xl,
+    top: 26,
+    fontFamily: FontFamily.interBold,
+    fontWeight: "700",
+    textAlign: "left",
+  },
+  youTypo: {
+    top: 27,
+    color: Color.colorBlack,
+    fontSize: FontSize.size_xl,
+    fontFamily: FontFamily.interBold,
+    fontWeight: "700",
+    textAlign: "left",
+  },
+  youPosition: {
+    left: 229,
+    position: "absolute",
+  },
+  moreLayout: {
+    height: 23,
+    position: "absolute",
+  },
+  iconPosition1: {
+    top: 1,
+    borderRadius: Border.br_mini,
+    position: "absolute",
+  },
+  switch1ItemPosition: {
+    top: 2,
+    borderRadius: Border.br_mini,
+  },
+  switch1Layout: {
+    height: 35,
+    width: 105,
+    position: "absolute",
+  },
+  switch1ItemLayout: {
+    width: 51,
+    position: "absolute",
+  },
+  buy2Layout: {
+    height: 18,
+    width: 44,
+    fontSize: FontSize.size_xl,
+    color: Color.labelColorDarkPrimary,
+    textAlign: "left",
+    position: "absolute",
+  },
+  iconLayout2: {
+    width: 95,
+    position: "absolute",
+  },
+  iconLayout1: {
+    height: 78,
+    position: "absolute",
+  },
+  acTypo: {
+    alignItems: "center",
+    display: "flex",
+    color: Color.colorBlack,
+    fontSize: FontSize.size_5xl,
+    textAlign: "left",
+    fontFamily: FontFamily.interRegular,
+    position: "absolute",
+  },
+  tvTypo: {
+    top: 944,
+    alignItems: "center",
+    display: "flex",
+    color: Color.colorBlack,
+    fontSize: FontSize.size_5xl,
+    textAlign: "left",
+    fontFamily: FontFamily.interRegular,
+    position: "absolute",
+  },
+  macMiniTypo: {
+    height: 36,
+    width: 109,
+    alignItems: "center",
+    display: "flex",
+    color: Color.colorBlack,
+    fontSize: FontSize.size_5xl,
+    textAlign: "left",
+    fontFamily: FontFamily.interRegular,
+  },
+  macbookPosition: {
+    left: 17,
+    position: "absolute",
+  },
+  iconLayout: {
+    height: 96,
+    width: 100,
+    position: "absolute",
+  },
+  home: {
+    left: 206,
+    color: Color.colorDarkslategray_200,
+    width: 38,
+    height: 12,
+    fontSize: FontSize.size_xs,
+    top: 98,
+    textAlign: "left",
+  },
+  aboutUs: {
+    left: 253,
+    width: 59,
+    height: 17,
+  },
+  help: {
+    left: 318,
+    width: 30,
+    height: 16,
+  },
+  buyChild: {
+    top: 90,
+    width: 189,
+    height: 32,
+    backgroundColor: Color.colorGainsboro,
+    borderRadius: Border.br_3xs,
+    left: 8,
+    position: "absolute",
+  },
+  searchWhatYou: {
+    top: 96,
+    left: 41,
+    fontSize: FontSize.size_sm,
+    color: Color.colorGray_100,
+    width: 151,
+    height: 21,
+  },
+  buyItem: {
+    width: 360,
+    height: 75,
+    left: 0,
+    top: 0,
+  },
+  screenshot20240210155037RIcon: {
+    width: 72,
+    left: 5,
+    height: 75,
+    top: 0,
+  },
+  buyInner: {
+    top: 127,
+    left: 237,
+    backgroundColor: "#4565d7",
+    height: 40,
+    width: 91,
+    borderRadius: Border.br_3xs,
+    position: "absolute",
+  },
+  login: {
+    left: 249,
+    width: 68,
+    height: 27,
+    fontSize: FontSize.size_5xl,
+    color: Color.labelColorDarkPrimary,
+    top: 133,
+  },
+  electrocash: {
+    top: 14,
+    left: 82,
+    fontSize: FontSize.size_26xl,
+  },
+  searchIcon: {
+    top: 94,
+    left: 12,
+    width: 29,
+    height: 24,
+    position: "absolute",
+  },
+  navigationBarChild: {
+    backgroundColor: Color.colorWhitesmoke_100,
+    height: 57,
+    width: 360,
+    left: 0,
+    position: "absolute",
+  },
+  buy1: {
+    left: 15,
+    width: 52,
+    height: 21,
+    position: "absolute",
+  },
+  sell: {
+    width: 62,
+    height: 30,
+    left: 77,
+    position: "absolute",
+  },
+  repair: {
+    left: 142,
+    width: 79,
+    height: 27,
+    position: "absolute",
+  },
+  you: {
+    width: 47,
+    top: 27,
+    color: Color.colorBlack,
+    fontSize: FontSize.size_xl,
+    fontFamily: FontFamily.interBold,
+    fontWeight: "700",
+    textAlign: "left",
+    height: 21,
+  },
+  more: {
+    width: 56,
+    left: 293,
+    color: Color.colorBlack,
+    fontSize: FontSize.size_xl,
+    top: 26,
+    fontFamily: FontFamily.interBold,
+    fontWeight: "700",
+    textAlign: "left",
+  },
+  sellIcon: {
+    width: 40,
+    left: 77,
+    height: 27,
+  },
+  toolsIcon: {
+    left: 152,
+    width: 42,
+    height: 30,
+  },
+  customerIcon: {
+    width: 39,
+    height: 29,
+    borderRadius: Border.br_mini,
+    top: 0,
+  },
+  shoppingCartIcon: {
+    left: 16,
+    width: 36,
+    height: 23,
+    position: "absolute",
+  },
+  menuSquaredIcon: {
+    width: 46,
+    height: 29,
+    left: 293,
+    position: "absolute",
+  },
+  navigationBar: {
+    top: 744,
+  },
+  switch1Child: {
+    borderRadius: Border.br_mini,
+    top: 0,
+    height: 35,
+    left: 0,
+    backgroundColor: Color.colorGainsboro,
+  },
+  switch1Item: {
+    left: 2,
+    backgroundColor: Color.colorMediumturquoise,
+    height: 31,
+    top: 2,
+    borderRadius: Border.br_mini,
+  },
+  buy2: {
+    top: 6,
+    left: 9,
+    fontFamily: FontFamily.interBold,
+    fontWeight: "700",
+    height: 18,
+  },
+  sell1: {
+    top: 5,
+    left: 61,
+    height: 18,
+    fontFamily: FontFamily.interRegular,
+  },
+  switch1: {
+    left: 23,
+    top: 133,
+    height: 35,
+  },
+  frameChild: {
+    width: 309,
+    height: 993,
+    zIndex: 0,
+  },
+  mobilePhoneIcon: {
+    height: 79,
+    zIndex: 1,
+    top: 11,
+    left: 23,
+  },
+  laptopIcon: {
+    left: 193,
+    width: 90,
+    zIndex: 2,
+    top: 11,
+  },
+  phone: {
+    top: 104,
+    left: 40,
+    width: 78,
+    zIndex: 3,
+    height: 29,
+  },
+  laptop: {
+    top: 99,
+    left: 199,
+    height: 28,
+    zIndex: 4,
+    width: 91,
+  },
+  workstationIcon: {
+    top: 180,
+    width: 92,
+    zIndex: 5,
+    left: 23,
+  },
+  smartWatchIcon: {
+    top: 183,
+    left: 190,
+    height: 72,
+    zIndex: 6,
+  },
+  androidTabletIcon: {
+    top: 349,
+    height: 81,
+    zIndex: 7,
+    left: 23,
+    width: 91,
+    position: "absolute",
+  },
+  airConditionerIcon: {
+    top: 339,
+    left: 183,
+    height: 91,
+    zIndex: 8,
+    width: 109,
+    position: "absolute",
+  },
+  computer: {
+    top: 257,
+    width: 126,
+    zIndex: 9,
+    height: 40,
+    left: 8,
+    display: "flex",
+  },
+  watch: {
+    top: 272,
+    left: 204,
+    width: 81,
+    height: 25,
+    zIndex: 10,
+  },
+  ac: {
+    top: 442,
+    left: 225,
+    height: 22,
+    zIndex: 11,
+    width: 52,
+  },
+  tablet: {
+    top: 438,
+    left: 30,
+    width: 84,
+    zIndex: 12,
+    height: 29,
+  },
+  tv: {
+    left: 51,
+    height: 34,
+    zIndex: 13,
+    width: 44,
+    top: 944,
+  },
+  refrigerator: {
+    top: 772,
+    width: 136,
+    zIndex: 14,
+    height: 40,
+    left: 5,
+  },
+  washingMachine: {
+    top: 770,
+    left: 185,
+    height: 51,
+    zIndex: 15,
+    width: 105,
+    display: "flex",
+  },
+  macMini: {
+    top: 608,
+    zIndex: 16,
+    left: 187,
+    position: "absolute",
+  },
+  macbook: {
+    top: 600,
+    zIndex: 17,
+    height: 36,
+    width: 109,
+    alignItems: "center",
+    display: "flex",
+    color: Color.colorBlack,
+    fontSize: FontSize.size_5xl,
+    textAlign: "left",
+    fontFamily: FontFamily.interRegular,
+  },
+  camera: {
+    left: 191,
+    width: 102,
+    zIndex: 18,
+    height: 31,
+  },
+  macbookIcon: {
+    width: 104,
+    height: 88,
+    zIndex: 19,
+    top: 512,
+  },
+  macMiniIcon: {
+    zIndex: 20,
+    left: 188,
+    width: 100,
+    top: 512,
+  },
+  fridgeIcon: {
+    top: 682,
+    left: 21,
+    zIndex: 21,
+  },
+  washingMachineIcon: {
+    top: 676,
+    zIndex: 22,
+    left: 187,
+  },
+  tvShowIcon: {
+    top: 844,
+    left: 19,
+    zIndex: 23,
+  },
+  remoteControlIcon: {
+    top: 891,
+    left: 10,
+    height: 47,
+    zIndex: 24,
+  },
+  cameraIcon: {
+    top: 853,
+    zIndex: 25,
+    left: 188,
+    width: 100,
+  },
+  groupParent: {
+    top: 185,
+    left: 25,
+    height: 559,
+    flexDirection: "row",
+    position: "absolute",
+  },
+  buy: {
+    backgroundColor: Color.labelColorDarkPrimary,
+    flex: 1,
+    width: "100%",
+    height: 800,
+  },
+});
+
+export default Buy;

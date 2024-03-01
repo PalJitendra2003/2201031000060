@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --default-regular-callout: "SF Pro Text";
+  --title2-regular: "SF Pro Display";
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+  --font-size-26xl: 45px;
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-lg: 18px;
+  --font-size-9xl: 28px;
+  --font-size-17xl: 36px;
+  --font-size-31xl: 50px;
+  --default-regular-callout-size: 16px;
+  --font-size-21xl: 40px;
+  --title2-regular-size: 22px;
+  --body-regular-size: 17px;
+
+  /* Colors */
+  --label-color-dark-primary: #fff;
+  --color-black: #000;
+  --color-mediumturquoise: #37c3c3;
+  --color-gainsboro: #d9d9d9;
+  --color-whitesmoke-100: #f6f6f6;
+  --color-whitesmoke-200: #eee8e8;
+  --color-royalblue-100: #5576e8;
+  --color-royalblue-200: #3653bb;
+  --color-gray-100: #7b7777;
+  --color-gray-200: #2e2a2a;
+  --color-darkslategray-100: #4b4b4c;
+  --color-darkslategray-200: #383030;
+  --color-darkslategray-300: #313132;
+  --color-lightcyan: #e7ffff;
+  --color-dimgray-100: #6f6f70;
+  --default-systemgray-02-dark: #636366;
+
+  /* Gaps */
+  --gap-0: 0px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-13xl: 32px;
+
+  /* Border radiuses */
+  --br-mini: 15px;
+  --br-3xs: 10px;
+  --br-xl: 20px;
+  --br-11xl: 30px;
+  --br-7xs: 6px;
+  --br-8xs-6: 4.6px;
+  --br-12xs: 1px;
+}

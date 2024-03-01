@@ -1,0 +1,519 @@
+.back-icon2 {
+  position: absolute;
+  top: 25px;
+  left: 14px;
+  width: 43px;
+  height: 35px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.buy-phone-child {
+  position: absolute;
+  top: 25px;
+  left: 85px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  width: 244px;
+  height: 36px;
+}
+.search1 {
+  position: absolute;
+  top: 33px;
+  left: 127px;
+  color: var(--color-gray-100);
+  display: inline-block;
+  width: 72px;
+  height: 21px;
+}
+.search-icon3 {
+  position: absolute;
+  top: 26px;
+  left: 91px;
+  width: 36px;
+  height: 31px;
+  object-fit: cover;
+}
+.select-brand1 {
+  position: absolute;
+  top: 68px;
+  left: 14px;
+  text-decoration: underline;
+  display: inline-block;
+  width: 129px;
+  height: 24px;
+}
+.buy-phone-item,
+.phone-child {
+  position: absolute;
+  border-radius: var(--br-7xs);
+}
+.buy-phone-item {
+  top: 106px;
+  left: calc(50% - 166px);
+  background-color: var(--color-lightcyan);
+  width: 332px;
+  height: 694px;
+}
+.phone-child {
+  top: 0;
+  left: 0;
+  background-color: var(--label-color-dark-primary);
+  width: 135px;
+  height: 140px;
+}
+.phone-child1,
+.phone-child2,
+.phone-child3,
+.phone-child4,
+.phone-child5,
+.phone-child6,
+.phone-child7,
+.phone-child8,
+.phone-inner {
+  position: absolute;
+  top: 153px;
+  left: 1px;
+  border-radius: var(--br-7xs);
+  background-color: var(--label-color-dark-primary);
+  width: 135px;
+  height: 140px;
+}
+.phone-child1,
+.phone-child2,
+.phone-child3,
+.phone-child4,
+.phone-child5,
+.phone-child6,
+.phone-child7,
+.phone-child8 {
+  top: 306px;
+  left: 2px;
+}
+.phone-child2,
+.phone-child3,
+.phone-child4,
+.phone-child5,
+.phone-child6,
+.phone-child7,
+.phone-child8 {
+  top: 459px;
+  left: 3px;
+}
+.phone-child3,
+.phone-child4,
+.phone-child5,
+.phone-child6,
+.phone-child7,
+.phone-child8 {
+  top: 612px;
+  left: 4px;
+}
+.phone-child4,
+.phone-child5,
+.phone-child6,
+.phone-child7,
+.phone-child8 {
+  top: 765px;
+  left: 5px;
+}
+.phone-child5,
+.phone-child6,
+.phone-child7,
+.phone-child8 {
+  top: 918px;
+  left: 6px;
+}
+.phone-child6,
+.phone-child7,
+.phone-child8 {
+  top: 1071px;
+  left: 4px;
+}
+.phone-child7,
+.phone-child8 {
+  top: 1224px;
+  left: 2px;
+}
+.phone-child8 {
+  top: 0;
+  left: 154px;
+}
+.phone-child10,
+.phone-child11,
+.phone-child12,
+.phone-child13,
+.phone-child14,
+.phone-child15,
+.phone-child16,
+.phone-child17 {
+  position: absolute;
+  top: 153px;
+  left: 155px;
+  border-radius: var(--br-7xs);
+  background-color: var(--label-color-dark-primary);
+  width: 135px;
+  height: 140px;
+}
+.phone-child11,
+.phone-child12,
+.phone-child13,
+.phone-child14,
+.phone-child15,
+.phone-child16,
+.phone-child17 {
+  top: 306px;
+  left: 156px;
+}
+.phone-child12,
+.phone-child13,
+.phone-child14,
+.phone-child15,
+.phone-child16,
+.phone-child17 {
+  top: 459px;
+  left: 157px;
+}
+.phone-child13,
+.phone-child14,
+.phone-child15,
+.phone-child16,
+.phone-child17 {
+  top: 612px;
+  left: 158px;
+}
+.phone-child14,
+.phone-child15,
+.phone-child16,
+.phone-child17 {
+  top: 765px;
+  left: 159px;
+}
+.phone-child15,
+.phone-child16,
+.phone-child17 {
+  top: 918px;
+  left: 160px;
+}
+.phone-child16,
+.phone-child17 {
+  top: 1071px;
+  left: 158px;
+}
+.phone-child17 {
+  top: 1224px;
+  left: 156px;
+}
+.apple-logo-icon1 {
+  position: absolute;
+  top: 6px;
+  left: 18px;
+  width: 98px;
+  height: 91px;
+  object-fit: cover;
+}
+.apple1 {
+  position: absolute;
+  top: 97px;
+  left: 37px;
+  display: flex;
+  align-items: center;
+  width: 87px;
+  height: 25px;
+}
+.xiaomi-icon1,
+.xiaomi1 {
+  position: absolute;
+  left: 186px;
+}
+.xiaomi-icon1 {
+  top: 14px;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+.xiaomi1 {
+  top: 97px;
+  display: flex;
+  align-items: center;
+  width: 87px;
+  height: 25px;
+}
+.samsung-icon1 {
+  position: absolute;
+  top: 153px;
+  left: 4px;
+  width: 132px;
+  height: 98px;
+  object-fit: cover;
+}
+.oneplus1,
+.oppo1,
+.samsung1,
+.vivo1 {
+  position: absolute;
+  top: 251px;
+  left: 24px;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 25px;
+}
+.oneplus1,
+.oppo1,
+.vivo1 {
+  left: 200px;
+}
+.oneplus1,
+.oppo1 {
+  top: 405px;
+  left: 193px;
+}
+.oneplus1 {
+  left: 35px;
+}
+.honor1,
+.infinix1,
+.iqoo1,
+.lava1,
+.lenovo1,
+.motorola1,
+.nokia1,
+.nothing1,
+.poco1,
+.realme1 {
+  position: absolute;
+  top: 543px;
+  left: 35px;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 25px;
+}
+.honor1,
+.infinix1,
+.iqoo1,
+.lava1,
+.lenovo1,
+.motorola1,
+.nokia1,
+.nothing1,
+.poco1 {
+  left: 180px;
+}
+.honor1,
+.infinix1,
+.iqoo1,
+.lava1,
+.lenovo1,
+.nokia1,
+.nothing1,
+.poco1 {
+  top: 706px;
+  left: 41px;
+}
+.honor1,
+.infinix1,
+.iqoo1,
+.lava1,
+.lenovo1,
+.nothing1,
+.poco1 {
+  top: 855px;
+}
+.infinix1,
+.iqoo1,
+.lava1,
+.lenovo1,
+.nothing1,
+.poco1 {
+  top: 862px;
+  left: 200px;
+}
+.infinix1,
+.iqoo1,
+.lava1,
+.lenovo1,
+.nothing1 {
+  top: 1012px;
+  left: 40px;
+}
+.iqoo1,
+.lava1,
+.lenovo1,
+.nothing1 {
+  left: 204px;
+}
+.lava1,
+.lenovo1,
+.nothing1 {
+  top: 1159px;
+  left: 31px;
+}
+.lava1,
+.lenovo1 {
+  top: 1315px;
+  left: 29px;
+}
+.lava1 {
+  top: 1164px;
+  left: 204px;
+}
+.blank-line {
+  margin: 0;
+}
+.google-txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.google1 {
+  position: absolute;
+  top: 694px;
+  left: 193px;
+  display: flex;
+  align-items: center;
+  width: 72px;
+  height: 25px;
+}
+.image-15-icon,
+.image-15-icon1 {
+  position: absolute;
+  top: 174px;
+  left: 163px;
+  width: 122px;
+  height: 49px;
+  object-fit: cover;
+}
+.image-15-icon1 {
+  top: 316px;
+  left: 24px;
+  width: 100px;
+  height: 77px;
+}
+.image-15-icon2,
+.image-15-icon3,
+.image-15-icon4 {
+  position: absolute;
+  top: 335px;
+  left: 161px;
+  width: 125px;
+  height: 41px;
+  object-fit: cover;
+}
+.image-15-icon3,
+.image-15-icon4 {
+  top: 483px;
+  left: 6px;
+  width: 130px;
+  height: 35px;
+}
+.image-15-icon4 {
+  top: 482px;
+  left: 161px;
+  width: 129px;
+  height: 36px;
+}
+.image-15-icon5,
+.image-15-icon6,
+.image-15-icon7 {
+  position: absolute;
+  top: 643px;
+  left: 12px;
+  width: 118px;
+  height: 39px;
+  object-fit: cover;
+}
+.image-15-icon6,
+.image-15-icon7 {
+  top: 624px;
+  left: 180px;
+  width: 89px;
+  height: 77px;
+}
+.image-15-icon7 {
+  top: 797px;
+  left: 10px;
+  width: 124px;
+  height: 31px;
+}
+.image-15-icon10,
+.image-15-icon8,
+.image-15-icon9 {
+  position: absolute;
+  top: 793px;
+  left: 168px;
+  width: 118px;
+  height: 47px;
+  object-fit: cover;
+}
+.image-15-icon10,
+.image-15-icon9 {
+  top: 947px;
+  left: 16px;
+  width: 117px;
+  height: 25px;
+}
+.image-15-icon10 {
+  left: 173px;
+  width: 114px;
+  height: 27px;
+}
+.image-15-icon11,
+.image-15-icon12,
+.image-15-icon13 {
+  position: absolute;
+  top: 1099px;
+  left: 12px;
+  width: 119px;
+  height: 40px;
+  object-fit: cover;
+}
+.image-15-icon12,
+.image-15-icon13 {
+  top: 1110px;
+  left: 165px;
+  width: 122px;
+  height: 29px;
+}
+.image-15-icon13 {
+  top: 1250px;
+  left: 10px;
+  width: 119px;
+  height: 48px;
+}
+.other-phone {
+  position: absolute;
+  top: 1259px;
+  left: 181px;
+  font-size: var(--font-size-5xl);
+  display: flex;
+  align-items: center;
+  width: 95px;
+  height: 69px;
+}
+.phone2 {
+  width: 297px;
+  position: relative;
+  height: 1375px;
+}
+.phone-wrapper {
+  position: absolute;
+  top: 121px;
+  left: 32px;
+  height: 679px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buy-phone {
+  width: 100%;
+  position: relative;
+  background-color: var(--label-color-dark-primary);
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

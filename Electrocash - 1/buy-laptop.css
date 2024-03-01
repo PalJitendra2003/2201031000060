@@ -1,0 +1,363 @@
+.back-icon3 {
+  position: absolute;
+  top: 25px;
+  left: 14px;
+  width: 43px;
+  height: 35px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.buy-laptop-child {
+  position: absolute;
+  top: 25px;
+  left: 85px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  width: 244px;
+  height: 36px;
+}
+.search2 {
+  position: absolute;
+  top: 33px;
+  left: 127px;
+  color: var(--color-gray-100);
+  display: inline-block;
+  width: 72px;
+  height: 21px;
+}
+.search-icon4 {
+  position: absolute;
+  top: 26px;
+  left: 91px;
+  width: 36px;
+  height: 31px;
+  object-fit: cover;
+}
+.select-brand2 {
+  position: absolute;
+  top: 68px;
+  left: 14px;
+  text-decoration: underline;
+  display: inline-block;
+  width: 129px;
+  height: 24px;
+}
+.buy-laptop-item {
+  position: absolute;
+  top: 106px;
+  left: calc(50% - 166px);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-lightcyan);
+  width: 332px;
+  height: 694px;
+}
+.frame-child2,
+.frame-child3,
+.frame-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--label-color-dark-primary);
+  width: 135px;
+  height: 140px;
+}
+.frame-child2,
+.frame-child3 {
+  top: 153px;
+  left: 1px;
+}
+.frame-child3 {
+  top: 306px;
+  left: 2px;
+}
+.frame-child10,
+.frame-child11,
+.frame-child12,
+.frame-child13,
+.frame-child4,
+.frame-child5,
+.frame-child6,
+.frame-child7,
+.frame-child9 {
+  position: absolute;
+  top: 459px;
+  left: 3px;
+  border-radius: var(--br-7xs);
+  background-color: var(--label-color-dark-primary);
+  width: 135px;
+  height: 140px;
+}
+.frame-child10,
+.frame-child11,
+.frame-child12,
+.frame-child13,
+.frame-child5,
+.frame-child6,
+.frame-child7,
+.frame-child9 {
+  top: 612px;
+}
+.frame-child10,
+.frame-child11,
+.frame-child12,
+.frame-child13,
+.frame-child6,
+.frame-child7,
+.frame-child9 {
+  top: 770px;
+}
+.frame-child10,
+.frame-child11,
+.frame-child12,
+.frame-child13,
+.frame-child7,
+.frame-child9 {
+  top: 0;
+  left: 154px;
+}
+.frame-child10,
+.frame-child11,
+.frame-child12,
+.frame-child13,
+.frame-child9 {
+  top: 153px;
+  left: 155px;
+}
+.frame-child10,
+.frame-child11,
+.frame-child12,
+.frame-child13 {
+  top: 306px;
+  left: 156px;
+}
+.frame-child11,
+.frame-child12,
+.frame-child13 {
+  top: 459px;
+  left: 157px;
+}
+.frame-child12,
+.frame-child13 {
+  top: 612px;
+  left: 154px;
+}
+.frame-child13 {
+  top: 770px;
+  left: 157px;
+}
+.apple-logo-icon2 {
+  position: absolute;
+  top: 6px;
+  left: 18px;
+  width: 98px;
+  height: 91px;
+  object-fit: cover;
+}
+.acer,
+.apple2,
+.asus,
+.dell,
+.hp,
+.microsoft,
+.oneplus2 {
+  position: absolute;
+  top: 97px;
+  left: 37px;
+  display: flex;
+  align-items: center;
+  width: 87px;
+  height: 25px;
+}
+.acer,
+.asus,
+.dell,
+.hp,
+.microsoft,
+.oneplus2 {
+  left: 178px;
+  width: 111px;
+}
+.acer,
+.asus,
+.dell,
+.hp,
+.oneplus2 {
+  top: 246px;
+  left: 42px;
+  width: 100px;
+}
+.acer,
+.dell,
+.hp,
+.oneplus2 {
+  top: 251px;
+  left: 200px;
+}
+.dell,
+.hp,
+.oneplus2 {
+  top: 405px;
+  left: 54px;
+}
+.dell,
+.oneplus2 {
+  top: 708px;
+  left: 31px;
+}
+.dell {
+  top: 543px;
+  left: 52px;
+}
+.soni1 {
+  margin: 0;
+}
+.soni-txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.lenovo2,
+.soni {
+  position: absolute;
+  top: 556px;
+  left: 200px;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 25px;
+}
+.lenovo2 {
+  top: 405px;
+  left: 183px;
+}
+.image-15-icon14,
+.image-15-icon15 {
+  position: absolute;
+  top: 618px;
+  left: 27px;
+  width: 100px;
+  height: 77px;
+  object-fit: cover;
+}
+.image-15-icon15 {
+  top: 328px;
+  left: 162px;
+  width: 119px;
+  height: 48px;
+}
+.other-laptops {
+  position: absolute;
+  top: 805px;
+  left: 182px;
+  font-size: var(--font-size-5xl);
+  display: flex;
+  align-items: center;
+  width: 106px;
+  height: 68px;
+}
+.image-17-icon,
+.image-18-icon,
+.image-19-icon,
+.image-20-icon {
+  position: absolute;
+  top: 27px;
+  left: 154px;
+  width: 135px;
+  height: 54px;
+  object-fit: cover;
+}
+.image-17-icon,
+.image-18-icon,
+.image-19-icon {
+  top: 189px;
+  left: 1px;
+  height: 34px;
+}
+.image-17-icon,
+.image-19-icon {
+  top: 179px;
+  left: 157px;
+  width: 126px;
+  height: 54px;
+}
+.image-17-icon {
+  top: 318px;
+  left: 23px;
+  width: 98px;
+  height: 74px;
+}
+.image-16-icon,
+.image-21-icon,
+.samsung-icon2 {
+  position: absolute;
+  top: 473px;
+  left: 12px;
+  width: 123px;
+  height: 59px;
+  object-fit: cover;
+}
+.image-21-icon,
+.samsung-icon2 {
+  left: 162px;
+  width: 127px;
+  height: 70px;
+}
+.samsung-icon2 {
+  top: 618px;
+  left: 167px;
+  width: 110px;
+  height: 91px;
+}
+.samsung2 {
+  position: absolute;
+  top: 708px;
+  left: 174px;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 25px;
+}
+.xiaomi-icon2 {
+  position: absolute;
+  top: 777px;
+  left: 22px;
+  width: 98px;
+  height: 72px;
+  object-fit: cover;
+}
+.xiaomi2 {
+  position: absolute;
+  top: 860px;
+  left: 34px;
+  display: flex;
+  align-items: center;
+  width: 87px;
+  height: 25px;
+}
+.rectangle-parent {
+  width: 300px;
+  position: relative;
+  height: 910px;
+}
+.buy-laptop-inner {
+  position: absolute;
+  top: 127px;
+  left: 36px;
+  height: 673px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buy-laptop {
+  width: 100%;
+  position: relative;
+  background-color: var(--label-color-dark-primary);
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

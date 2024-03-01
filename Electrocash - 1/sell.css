@@ -1,0 +1,483 @@
+.about-us1,
+.help1,
+.home1 {
+  position: absolute;
+  top: 98px;
+  display: inline-block;
+}
+.home1 {
+  left: 207px;
+  color: var(--color-darkslategray-200);
+  width: 38px;
+  height: 12px;
+}
+.about-us1,
+.help1 {
+  left: 252px;
+  width: 59px;
+  height: 17px;
+}
+.help1 {
+  left: 315px;
+  width: 30px;
+  height: 16px;
+}
+.sell-child {
+  position: absolute;
+  top: 90px;
+  left: 8px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  width: 189px;
+  height: 32px;
+}
+.search-what-you1 {
+  position: absolute;
+  top: 96px;
+  left: 41px;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  display: inline-block;
+  width: 151px;
+  height: 21px;
+}
+.search-icon1,
+.sell-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 360px;
+  height: 75px;
+}
+.search-icon1 {
+  top: 94px;
+  left: 12px;
+  width: 29px;
+  height: 24px;
+  object-fit: cover;
+}
+.screenshot-2024-02-10-155037-r-icon1 {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  width: 72px;
+  height: 75px;
+  object-fit: cover;
+}
+.electrocash1 {
+  position: absolute;
+  top: 12px;
+  left: 81px;
+  font-size: var(--font-size-26xl);
+  color: var(--label-color-dark-primary);
+}
+.switch-2-child,
+.switch-2-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro);
+  width: 105px;
+  height: 35px;
+}
+.switch-2-item {
+  top: 2px;
+  left: 52px;
+  background-color: var(--color-royalblue-100);
+  width: 51px;
+  height: 31px;
+}
+.buy3,
+.sell3 {
+  position: absolute;
+  top: 4px;
+  left: 7px;
+  display: inline-block;
+  width: 44px;
+  height: 18px;
+}
+.sell3 {
+  top: 5px;
+  left: 61px;
+}
+.switch-2 {
+  position: absolute;
+  top: 132px;
+  left: 23px;
+  width: 105px;
+  height: 35px;
+  cursor: pointer;
+  font-size: var(--font-size-xl);
+  color: var(--label-color-dark-primary);
+}
+.navigation-bar-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-100);
+  width: 360px;
+  height: 60px;
+}
+.buy4,
+.more1,
+.repair1,
+.sell4,
+.you1 {
+  position: absolute;
+  top: 27px;
+  left: 15px;
+  display: inline-block;
+  width: 52px;
+  height: 22.5px;
+}
+.more1,
+.repair1,
+.sell4,
+.you1 {
+  top: 28.1px;
+  left: 77px;
+  width: 62px;
+  height: 31.4px;
+}
+.more1,
+.repair1,
+.you1 {
+  top: 27px;
+  left: 142px;
+  width: 79px;
+  height: 28.1px;
+}
+.more1,
+.you1 {
+  top: 28.1px;
+  left: 229px;
+  width: 47px;
+  height: 22.5px;
+}
+.more1 {
+  top: 27px;
+  left: 293px;
+  width: 56px;
+  height: 24.7px;
+}
+.customer-icon1,
+.menu-squared-icon1,
+.sell-icon1,
+.shopping-cart-icon1,
+.tools-icon1 {
+  position: absolute;
+  top: 1.2px;
+  left: 77px;
+  border-radius: var(--br-mini);
+  width: 40px;
+  height: 28.1px;
+  object-fit: cover;
+}
+.customer-icon1,
+.menu-squared-icon1,
+.shopping-cart-icon1,
+.tools-icon1 {
+  left: 152px;
+  width: 42px;
+  height: 31.4px;
+}
+.customer-icon1,
+.menu-squared-icon1,
+.shopping-cart-icon1 {
+  top: 0.1px;
+  left: 229px;
+  width: 39px;
+  height: 30.3px;
+}
+.menu-squared-icon1,
+.shopping-cart-icon1 {
+  top: 2.3px;
+  left: 16px;
+  width: 36px;
+  height: 24.7px;
+}
+.menu-squared-icon1 {
+  top: 0.1px;
+  left: 293px;
+  width: 46px;
+  height: 30.3px;
+}
+.navigation-bar1 {
+  position: absolute;
+  top: 740px;
+  left: 0;
+  width: 360px;
+  height: 60px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frame-item {
+  width: 309px;
+  position: relative;
+  height: 993px;
+  z-index: 0;
+}
+.laptop-icon1,
+.mobile-phone-icon1 {
+  width: 95px;
+  position: absolute;
+  margin: 0 !important;
+  top: 10.5px;
+  left: 23px;
+  height: 78.6px;
+  object-fit: cover;
+  z-index: 1;
+}
+.laptop-icon1 {
+  width: 90px;
+  left: 193px;
+  height: 77.6px;
+  z-index: 2;
+}
+.phone1 {
+  width: 78px;
+  top: 103.5px;
+  left: 40px;
+  display: flex;
+  align-items: center;
+  height: 28.8px;
+  z-index: 3;
+}
+.laptop1,
+.phone1,
+.workstation-icon1 {
+  position: absolute;
+  margin: 0 !important;
+}
+.laptop1 {
+  width: 91px;
+  top: 98.7px;
+  left: 199px;
+  display: flex;
+  align-items: center;
+  height: 27.8px;
+  z-index: 4;
+}
+.workstation-icon1 {
+  width: 92px;
+  top: 180.2px;
+  left: 23px;
+  height: 77.6px;
+  object-fit: cover;
+  z-index: 5;
+}
+.air-conditioner-icon1,
+.android-tablet-icon1,
+.smart-watch-icon1 {
+  width: 95px;
+  position: absolute;
+  margin: 0 !important;
+  top: 183.1px;
+  left: 190px;
+  height: 71.9px;
+  object-fit: cover;
+  z-index: 6;
+}
+.air-conditioner-icon1,
+.android-tablet-icon1 {
+  width: 91px;
+  top: 348.9px;
+  left: 23px;
+  height: 81.5px;
+  z-index: 7;
+}
+.air-conditioner-icon1 {
+  width: 109px;
+  top: 339.3px;
+  left: 183px;
+  height: 91.1px;
+  z-index: 8;
+}
+.ac1,
+.computer1,
+.watch1 {
+  width: 126px;
+  position: absolute;
+  margin: 0 !important;
+  top: 256.9px;
+  left: 8px;
+  display: flex;
+  align-items: center;
+  height: 40.3px;
+  z-index: 9;
+}
+.ac1,
+.watch1 {
+  width: 81px;
+  top: 272.2px;
+  left: 204px;
+  height: 24.9px;
+  z-index: 10;
+}
+.ac1 {
+  width: 52px;
+  top: 441.9px;
+  left: 225px;
+  height: 22px;
+  z-index: 11;
+}
+.camera1,
+.mac-mini1,
+.macbook1,
+.refrigerator1,
+.tablet1,
+.tv1,
+.washing-machine1 {
+  width: 84px;
+  position: absolute;
+  margin: 0 !important;
+  top: 438px;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  height: 28.8px;
+  z-index: 12;
+}
+.camera1,
+.mac-mini1,
+.macbook1,
+.refrigerator1,
+.tv1,
+.washing-machine1 {
+  width: 44px;
+  top: 944.1px;
+  left: 51px;
+  height: 33.5px;
+  z-index: 13;
+}
+.camera1,
+.mac-mini1,
+.macbook1,
+.refrigerator1,
+.washing-machine1 {
+  width: 136px;
+  top: 771.6px;
+  left: 5px;
+  height: 40.3px;
+  z-index: 14;
+}
+.camera1,
+.mac-mini1,
+.macbook1,
+.washing-machine1 {
+  width: 105px;
+  top: 769.7px;
+  left: 185px;
+  height: 50.8px;
+  z-index: 15;
+}
+.camera1,
+.mac-mini1,
+.macbook1 {
+  width: 109px;
+  top: 607.7px;
+  left: 187px;
+  height: 35.5px;
+  z-index: 16;
+}
+.camera1,
+.macbook1 {
+  top: 600px;
+  left: 17px;
+  z-index: 17;
+}
+.camera1 {
+  width: 102px;
+  top: 944.1px;
+  left: 191px;
+  height: 30.7px;
+  z-index: 18;
+}
+.mac-mini-icon1,
+.macbook-icon1 {
+  width: 104px;
+  position: absolute;
+  margin: 0 !important;
+  top: 511.8px;
+  left: 17px;
+  height: 88.2px;
+  object-fit: cover;
+  z-index: 19;
+}
+.mac-mini-icon1 {
+  width: 100px;
+  left: 188px;
+  height: 95.8px;
+  z-index: 20;
+}
+.camera-icon1,
+.fridge-icon1,
+.remote-control-icon1,
+.tv-show-icon1,
+.washing-machine-icon1 {
+  width: 100px;
+  position: absolute;
+  margin: 0 !important;
+  top: 681.5px;
+  left: 21px;
+  height: 95.8px;
+  object-fit: cover;
+  z-index: 21;
+}
+.camera-icon1,
+.remote-control-icon1,
+.tv-show-icon1,
+.washing-machine-icon1 {
+  top: 675.7px;
+  left: 187px;
+  z-index: 22;
+}
+.camera-icon1,
+.remote-control-icon1,
+.tv-show-icon1 {
+  top: 843.5px;
+  left: 19px;
+  z-index: 23;
+}
+.camera-icon1,
+.remote-control-icon1 {
+  width: 51px;
+  top: 891.4px;
+  left: 10px;
+  height: 47px;
+  z-index: 24;
+}
+.camera-icon1 {
+  width: 100px;
+  top: 853.1px;
+  left: 188px;
+  height: 95.8px;
+  z-index: 25;
+}
+.group-container {
+  position: absolute;
+  top: 181px;
+  left: 25px;
+  height: 559px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 10px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+}
+.sell2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--label-color-dark-primary);
+  height: 800px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro Display:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login1">
+      <div class="login-child" id="rectangle"></div>
+      <div class="login-item" id="rectangle1"></div>
+      <b class="login2">Login</b>
+      <div class="username">Username</div>
+      <div class="password">Password</div>
+      <div class="login-inner"></div>
+      <div class="rectangle-div"></div>
+      <b class="log-in">Log in </b>
+      <b class="sign-up">Sign up</b>
+      <img class="customer-icon2" alt="" src="./public/customer@2x.png" />
+
+      <img class="password-icon" alt="" src="./public/password@2x.png" />
+
+      <b class="forgot-password">Forgot Password ?</b>
+      <b class="or">or</b>
+      <img class="arrow-icon" alt="" src="./public/arrow-1.svg" />
+
+      <img class="login-child1" alt="" src="./public/arrow-1.svg" />
+
+      <div class="login-child2"></div>
+      <div class="login-child3"></div>
+      <div class="login-with-google">Login with Google</div>
+      <div class="login-with-facebook">Login with Facebook</div>
+      <img class="google-icon" alt="" src="./public/google@2x.png" />
+
+      <img class="facebook-icon" alt="" src="./public/facebook@2x.png" />
+
+      <img class="back-icon" alt="" src="./public/back@2x.png" id="backIcon" />
+
+      <div class="line-div"></div>
+      <div class="login-child4"></div>
+    </div>
+
+    <script>
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./username-password.html";
+        });
+      }
+      
+      var rectangle1 = document.getElementById("rectangle1");
+      if (rectangle1) {
+        rectangle1.addEventListener("click", function (e) {
+          window.location.href = "./username-password.html";
+        });
+      }
+      
+      var backIcon = document.getElementById("backIcon");
+      if (backIcon) {
+        backIcon.addEventListener("click", function (e) {
+          window.location.href = "./buy.html";
+        });
+      }
+      </script>
+  </body>
+</html>
